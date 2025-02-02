@@ -1,0 +1,102 @@
+body{
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    max-width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.spacex-logo{
+    position: relative;
+    width: 100%;
+}
+
+.spacex-logo img{
+    width: 100%;
+    max-width: 100%;
+    position: block;
+}
+
+.navigation{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    margin: 2% 20%;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+}
+
+.nav a{
+    margin: 10px;
+}
+
+.content{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    font-size:large;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.content h4 {
+    margin: 0;
+    font-family:sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.content h1 {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.btn{
+    color: white;
+    height: auto;
+    width: auto;
+    border: 2px solid;
+    border-color: white;
+    padding: 20px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.075);
+}
+
+
+.container1, .container2, .container3, .container4, .container5, .container6, 
+.spacex-logo {
+    position: relative;
+    width: 100%;
+}
+
+.container1 img, .container2 img, .container3 img, .container4 img, .container5 img, .container6 img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+
+
+ 
